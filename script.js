@@ -47,7 +47,7 @@ const observer = new IntersectionObserver((entries) => {
 document.querySelectorAll('.service-card').forEach(card => {
     observer.observe(card);
 });
-
+/*
 // Contact Form Handler
 const contactForm = document.getElementById('contactForm');
 const formMessage = document.getElementById('formMessage');
@@ -131,6 +131,7 @@ contactForm.addEventListener('submit', async (e) => {
         submitBtn.disabled = false;
     }
 });
+*/
 
 function showMessage(text, type) {
     formMessage.textContent = text;
@@ -369,4 +370,5 @@ function showTestimonialMessage(text, type) {
 // Load testimonials when page loads
 document.addEventListener('DOMContentLoaded', () => {
     loadTestimonials();
+
 });
