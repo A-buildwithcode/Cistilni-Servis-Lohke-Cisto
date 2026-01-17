@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="sl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lohke Čisto - Profesionalni čistilni servis</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">
+                    <h1>Čistilni servis Lohke Čisto</h1>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#domov">Domov</a></li>
+                    <li><a href="#storitve">Storitve</a></li>
+                    <li><a href="#mnenja">Mnenja</a></li>
+                    <li><a href="#kontakt">Kontakt</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="domov" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-particles">
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+            <div class="particle"></div>
+        </div>
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title fade-in">Profesionalno čiščenje prostorov</h1>
+                <p class="hero-subtitle fade-in-delay">Profesionalna storitev, ki presega pričakovanja</p>
+                <a href="#kontakt" class="btn btn-primary fade-in-delay-2 pulse-animation">Oddajte povpraševanje</a>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="storitve" class="services">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Naše storitve</h2>
+                <p class="section-subtitle">Ponujamo celovite storitve čiščenja za vaše domove in poslovne prostore</p>
+            </div>
+            
+            <div class="services-grid">
+                <div class="service-card slide-in-left">
+                    <div class="service-icon">🏠</div>
+                    <h3>Čiščenje stanovanjskih prostorov</h3>
+                    <p>Redno in generalno čiščenje vaših domov. Zagotavljamo čisto in zdravo okolje za vašo družino.</p>
+                    <ul class="service-features">
+                        <li>Redno čiščenje</li>
+                        <li>Generalno čiščenje</li>
+                        <li>Globinsko čiščenje</li>
+                    </ul>
+                </div>
+
+                <div class="service-card slide-in-up">
+                    <div class="service-icon">🏢</div>
+                    <h3>Čiščenje poslovnih prostorov</h3>
+                    <p>Profesionalno vzdrževanje vaših poslovnih prostorov za produktivno delovno okolje.</p>
+                    <ul class="service-features">
+                        <li>Redno vzdrževanje</li>
+                        <li>Generalno čiščenje</li>
+                        <li>Specializirane storitve</li>
+                    </ul>
+                </div>
+
+                <div class="service-card slide-in-right">
+                    <div class="service-icon">🧽</div>
+                    <h3>Globinsko čiščenje</h3>
+                    <p>Specializirano globinsko čiščenje različnih površin in predmetov.</p>
+                    <ul class="service-features">
+                        <li>Vzmetnice</li>
+                        <li>Sedežne garniture</li>
+                        <li>Preproge</li>
+                        <li>Sedeži v avtomobilu</li>
+                    </ul>
+                </div>
+
+                <div class="service-card slide-in-left">
+                    <div class="service-icon">💨</div>
+                    <h3>Čiščenje s suho paro</h3>
+                    <p>Ekolosko in zdravstveno varno čiščenje z uporabo suhe pare.</p>
+                    <ul class="service-features">
+                        <li>Razkuževanje vzmetnic</li>
+                        <li>Razkuževanje sedežnih garnitur</li>
+                        <li>Izpihovanje radiatorjev</li>
+                        <li>Čiščenje pečice in kuhinje</li>
+                        <li>Primerno za alergike</li>
+                    </ul>
+                </div>
+
+                <div class="service-card slide-in-right">
+                    <div class="service-icon">✨</div>
+                    <h3>Profesionalna storitev</h3>
+                    <p>Zanesljivost, točnost in pozornost do detajlov v vsakem projektu.</p>
+                    <ul class="service-features">
+                        <li>Izkušeni strokovnjaki</li>
+                        <li>Kakovostna oprema</li>
+                        <li>Zadovoljstvo strank</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section id="mnenja" class="testimonials">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Oddajte svoje mnenje</h2>
+                <p class="section-subtitle">Vaša mnenja so nam zelo pomembna</p>
+            </div>
+
+            <div class="testimonials-content">
+                <div class="testimonial-form-container">
+                    <form id="testimonialForm" class="testimonial-form">
+                        <div class="form-group">
+                            <label for="testimonialName">Vaše ime *</label>
+                            <input type="text" id="testimonialName" name="name" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Ocena *</label>
+                            <div class="star-rating" id="starRating">
+                                <span class="star" data-rating="1">★</span>
+                                <span class="star" data-rating="2">★</span>
+                                <span class="star" data-rating="3">★</span>
+                                <span class="star" data-rating="4">★</span>
+                                <span class="star" data-rating="5">★</span>
+                            </div>
+                            <input type="hidden" id="testimonialRating" name="rating" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="testimonialText">Vaše mnenje *</label>
+                            <textarea id="testimonialText" name="testimonial" rows="4" required></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Oddaj mnenje</span>
+                            <span class="btn-loader" style="display: none;">Oddajanje...</span>
+                        </button>
+                        <div id="testimonialMessage" class="form-message"></div>
+                    </form>
+                </div>
+
+                <div class="testimonials-display">
+                    <h3 class="testimonials-title">Mnenja strank</h3>
+                    <div id="testimonialsList" class="testimonials-list">
+                        <!-- Mnenja se bodo prikazala tukaj -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="kontakt" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Kontaktirajte nas</h2>
+                <p class="section-subtitle">Oddajte povpraševanje ali nas pokličite za več informacij</p>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="contact-item">
+                        <div class="contact-icon">👤</div>
+                        <div class="contact-details">
+                            <h3>Aleksandra Zelić</h3>
+                            <p class="company-name">čistilni servis Lohke Čisto s.p.</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📞</div>
+                        <div class="contact-details">
+                            <h3>Telefon</h3>
+                            <a href="tel:+38641987735" class="phone-link">+386 41 987 735</a>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">📍</div>
+                        <div class="contact-details">
+                            <h3>Območje delovanja</h3>
+                            <p>Primorska regija</p>
+                            <p class="availability">Za povpraševanja smo dosegljivi kadarkoli</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <form id="contactForm" class="contact-form">
+                        <div class="form-group">
+                            <label for="name">Ime in priimek *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="propertyType">Vrsta prostora *</label>
+                            <select id="propertyType" name="propertyType" required>
+                                <option value="">Izberite...</option>
+                                <option value="stanovanjski">Stanovanjski prostor</option>
+                                <option value="poslovni">Poslovni prostor</option>
+                            </select>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="area">Kvadratura (m²) *</label>
+                            <input type="number" id="area" name="area" min="1" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Dodatno vprašanje ali opomba</label>
+                            <textarea id="message" name="message" rows="5"></textarea>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary btn-submit">
+                            <span class="btn-text">Pošlji povpraševanje</span>
+                            <span class="btn-loader" style="display: none;">Pošiljanje...</span>
+                        </button>
+
+                        <div id="formMessage" class="form-message"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Lohke Čisto</h3>
+                    <p>Profesionalni čistilni servis za vaše domove in poslovne prostore.</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Kontakt</h3>
+                    <p>Aleksandra Zelić</p>
+                    <p>čistilni servis Lohke Čisto s.p.</p>
+                    <p>Telefon: <a href="tel:+38641987735">+386 41 987 735</a></p>
+                    <p>Primorska regija</p>
+                </div>
+                <div class="footer-section">
+                    <h3>Storitve</h3>
+                    <ul>
+                        <li>Čiščenje stanovanjskih prostorov</li>
+                        <li>Čiščenje poslovnih prostorov</li>
+                        <li>Globinsko čiščenje</li>
+                        <li>Čiščenje s suho paro</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 Lohke Čisto. Vse pravice pridržane.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
